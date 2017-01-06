@@ -1,0 +1,156 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Profile Data",
+	"description": "Data used to populate user profile",
+	"type": "object",
+	"properties" : {
+		"title": {
+			"description": "The web page title",
+			"type": "string"	
+		},
+		"portrait": {
+			"type": "string"	
+		},
+		"name": {
+			"type": "string"	
+		},
+		"position": {
+			"type": "string"	
+		},
+		"bio": {
+			"type": "string"
+		},
+		"social": {
+			"description" : "Details related to the personal individual",
+			"type": "object",
+			"properties": {
+				"keybase": {
+					"type": "string"
+				},
+				"resume": {
+					"type": "string"
+				},
+				"email": {
+					"type": "string"
+				},
+				"github": {
+					"type": "string"
+				},
+				"twitter": {
+					"type": "string"
+				},
+				"linkedin": {
+					"type": "string"
+				},
+				"google+": {
+				   "type": "string"
+				}	   
+			}
+		},
+		"publications": {
+			"description" : "",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties":{
+					"title": {
+						"type": "string"
+					},
+					"authors": {
+						"type": "array",
+						"items" : {
+							"type": "object",
+							"properties": {
+								"name": {
+									"type":"string"
+								},
+								"url": {
+									"type":"string"
+								}
+							}
+						}
+					},
+					"publication": {
+						"type": "string"
+					},
+					"location": {
+						"description": "Location of the venue",
+						"type": "string"
+					},
+					"date": {
+						"type": "string"
+					},
+					"url": {
+						"type": "string"
+					},
+					"code": {
+						"description": "Link to source code",
+						"type": "string"
+					},
+					"talks": {
+						"type": "array",
+						"items": {
+							"type":"object",
+							"properties": {
+								"event": {
+									"type": "string"
+								},
+								"date": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"industry":{
+			"description" : "",
+			"type": "array",
+			"items":{
+				"type":"object",
+				"properties": {
+					"position": {
+						"type":"string"
+					},
+					"employer": {
+						"type":"string"
+					},
+					"start": {
+						"type":"string"
+					},
+					"end": {
+						"type":"string"
+					},
+					"description": {
+						"type":"string"
+					},
+					"url": {
+						"type":"string"
+					}
+				}
+			}
+		},
+		"projects":{
+			"description" : "",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties":{
+					"title": {
+						"type":"string"
+					},
+					"description": {
+						"type":"string"
+					},
+					"code": {
+						"type":"string"
+					},
+					"url": {
+						"type":"string"
+					}
+				}
+			}
+		}
+	}
+}
