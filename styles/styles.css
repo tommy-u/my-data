@@ -1,0 +1,24 @@
+/* Styles for carousel */
+#myCarousel {
+	background-color: #EEE;
+}
+.carousel-control.right, .carousel-control.left {
+    color: rgb(255,64,129);
+}
+
+.carousel-indicators li {
+    border-color: rgb(255,64,129);
+}
+
+.carousel-indicators li.active {
+    background-color: rgb(255,64,129);
+}
+.custom-bullet:before {
+	/* This is the color of the icons */
+	color: rgb(255,64,129);
+}
+/* Uncomment to remove Github ribbon 
+#ribbon {
+	display: none;
+}
+*/

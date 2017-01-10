@@ -1,0 +1,55 @@
+{
+		"title": "Derek Zoolander",
+		"portrait": "http://www.leadersayswhat.com/wp-content/uploads/2016/02/derek-zoolander-thumb.jpg",
+		"name": "Derek Zoolander",
+		"position": "Male Model",
+		"bio": "I'm pretty sure there's a lot more to life than being really, really, ridiculously good looking. And I plan on finding out what that is.",
+		"social" : {
+					"github": "https://github.com/<username>", 
+					"twitter": "https://twitter.com/<username>", 
+					"linkedin": "https://www.linkedin.com/in/<username>",
+					"keybase": "https://keybase.io/<username>",
+					"email": "mailto:derek at BallsteinModels.com ",
+					"resume": "my-data/<pathtopdf>"
+		},
+		"publications" : [
+			{ 
+				"title": "The art of the look: Blue Steel, Le Tigre, Ferrari and Magnum",
+				"authors": [
+					{
+						"name": "Derek Zoolander"
+					},
+					{
+						"name": "Hansel",
+						"url": "http://www.imdb.com/character/ch0007760/"
+					}
+				],
+				"publication": "Vogue ",
+				"date": "November 2016",
+				"url": "my-data/pubs/<pathtopdf",
+				"code": "https://github.com/<username>/<project>",
+				"talks" : [
+					{
+						"event": "Paris Fashion Week",
+						"date": "Summer 2015"
+					}
+				]
+			}
+		],
+		"industry" : [
+			{
+				"position": "Male Model",
+				"employer": "Ballstein Models",
+				"start": "January 2001",
+				"end": "June 2016",
+				"description": ""
+			}
+				],
+		"projects" : [
+			{
+				"title": "Magnum",
+				"description": "The ultimate model look",
+				"code":"https://github.com/<username>/<project>"
+			}
+		]
+}
