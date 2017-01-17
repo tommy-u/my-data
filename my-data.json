@@ -7,7 +7,7 @@
     "social" : {
 	"github": "https://github.com/tommy-u", 
 	"email": "mailto:tommyu@bu.edu ",
-	"resume": "my-data/<pathtopdf>"
+	"resume": "my-data/CV.md.html"
     },
     "publications" : [
 	{ 
@@ -50,7 +50,8 @@
 	{
 	    "title": "xfiles-dana",
 	    "description": "Extensions to the RISC-V ISA allowing for hardware acceleration of multilayer perceptron networks.",
-	    "url": "https://github.com/bu-icsg/xfiles-dana"
+	    "url": "https://github.com/bu-icsg/xfiles-dana",
+	    "github": "https://github.com/bu-icsg/xfiles-dana"
 	}
     ],
 
