@@ -61,7 +61,7 @@
 	    "employer": "MorphoTrust - Biometric Security",
 	    "start": "May",
 	    "end": "August 2014",
-	    "description": "Independently built a prototype Artificial Neural Network based passport classification system. Built a tool with a GUI front end for merging passport data from various sources into a unified database."
+	    "description": "Independently built a prototype Artificial Neural Network based passport classification system. Built a tool for merging passport data from various sources into a unified database. Built a GUI for this tool."
 	}
     ]
 
