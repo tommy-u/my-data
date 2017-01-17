@@ -37,24 +37,32 @@
 	    ],
 	    "publication": "Boston Area Architecture Workshop",
 	    "date": "January 29 2016",
-	    "url": "my-data/pubs/<pathtopdf",
-	    "code": "https://github.com/<username>/<project>"
-	}
-    ],
-    "industry" : [
-	{
-	    "position": "Softwa",
-	    "employer": "Ballstein Models",
-	    "start": "January 2001",
-	    "end": "June 2016",
-	    "description": ""
+	    "url": "http://people.bu.edu/schuye/files/barc2016-eldridge-paper.pdf",
+	    "code": "https://github.com/bu-icsg/xfiles-dana"
 	}
     ],
     "projects" : [
 	{
-	    "title": "Magnum",
-	    "description": "The ultimate model look",
-	    "code":"https://github.com/<username>/<project>"
+	    "title": "Automatically Scalable Computation",
+	    "description": "A runtime system for parallelizing sequential programs via speculative execution.",
+	    "url": "http://people.seas.harvard.edu/~apw/asc/"
+	},
+	{
+	    "title": "xfiles-dana",
+	    "description": "Extensions to the RISC-V ISA allowing for hardware acceleration of multilayer perceptron networks.",
+	    "url": "https://github.com/bu-icsg/xfiles-dana"
+	}
+    ],
+
+    "industry" : [
+	{
+	    "position": "Software Engineer Intern",
+	    "employer": "MorphoTrust - Biometric Security",
+	    "start": "May",
+	    "end": "August 2014",
+	    "description": "Independently built a prototype Artificial Neural Network based passport classification system. Built a tool with a GUI front end for merging passport data from various sources into a unified database."
 	}
     ]
+
 }
+
